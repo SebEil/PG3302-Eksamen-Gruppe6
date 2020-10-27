@@ -9,8 +9,6 @@ namespace PG3302_Eksamen
             Console.WriteLine("Hi, and welcome to this card game!! \nHow many players? (2-4)");
             String inpuutPlayer = Console.ReadLine();
 
-
-
             Console.ReadKey();
         }
     }
