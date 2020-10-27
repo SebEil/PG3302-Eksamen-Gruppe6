@@ -7,6 +7,7 @@ namespace PG3302_Eksamen
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Ny test på pushing");
         }
     }
 }
