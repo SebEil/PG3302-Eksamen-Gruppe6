@@ -5,7 +5,7 @@ using System.Text;
 namespace PG3302_Eksamen
 {
 
-    enum cardHearts
+    enum cards
     {
         Ace = 1,
         Two,
@@ -21,58 +21,15 @@ namespace PG3302_Eksamen
         Queen,
         King,
     }
-    enum cardSpades
+    enum type
     {
-        Ace = 1,
-        Two,
-        Three,
-        Four,
-        Five,
-        Six,
-        Seven,
-        Eight,
-        Nine,
-        Ten,
-        Jack,
-        Queen,
-        King,
+        Hearts,
+        Diamonds,
+        Spades,
+        Clubs,
     }
 
-    enum cardDiamonds
-    {
-        Ace = 1,
-        Two,
-        Three,
-        Four,
-        Five,
-        Six,
-        Seven,
-        Eight,
-        Nine,
-        Ten,
-        Jack,
-        Queen,
-        King,
-    }
-
-    enum cardClubs
-    {
-        Ace = 1,
-        Two,
-        Three,
-        Four,
-        Five,
-        Six,
-        Seven,
-        Eight,
-        Nine,
-        Ten,
-        Jack,
-        Queen,
-        King,
-    }
-
-    enum cardSpecial
+    enum cardsSpecial
     {
         Bomben,
         Gribben,
